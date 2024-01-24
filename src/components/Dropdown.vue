@@ -6,7 +6,7 @@
       </span>
 
       <span class="dropdown__icon">
-        <img src="/src/assets/icons/arrow.svg" alt="icon" />
+        <img src="/icons/arrow.svg" alt="icon" />
       </span>
     </div>
 
@@ -143,8 +143,6 @@ const changeValue = (value) => {
         .dropdown__menu__text::after {
           width: 100%;
         }
-
-        
       }
     }
   }

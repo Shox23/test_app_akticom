@@ -12,7 +12,7 @@
       >
         <router-link class="sidebar__menu__link" to="/">
           <span class="sidebar__menu__icon">
-            <img :src="`/src/assets/icons/${item.icon}.svg`" alt="icon" />
+            <img :src="`/icons/${item.icon}.svg`" alt="icon" />
           </span>
           <span class="sidebar__menu__text">
             {{ item.title }}

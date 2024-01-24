@@ -3,7 +3,7 @@
     <div class="client-card__user">
       <div class="client-card__header">
         <div class="client-card__icon">
-          <img src="/src/assets/icons/user.svg" alt="icon" />
+          <img src="/icons/user.svg" alt="icon" />
           <div
             class="client-card__indicator"
             :class="[
@@ -38,7 +38,7 @@
         class="client-card__menu"
         @click.stop="$emit('delete', itemDetails.id)"
       >
-        <img src="/src/assets/icons/delete.svg" alt="icon" />
+        <img src="/icons/delete.svg" alt="icon" />
       </div>
     </div>
     <div class="client-card__details">

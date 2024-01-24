@@ -11,7 +11,7 @@
     />
     <span class="custom-input__icon" v-if="hasIcon">
       <img
-        :src="`/src/assets/icons/${isDark ? 'search' : 'searchBlack'}.svg`"
+        :src="`/icons/${isDark ? 'search' : 'searchBlack'}.svg`"
         alt="icon"
       />
     </span>
