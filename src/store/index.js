@@ -54,7 +54,7 @@ export const clientStore = defineStore("clientStore", () => {
   };
 
   const findClient = (val) => {
-    renderList.value = clientList.value.filter((item) =>
+    renderList.value = renderList.value.filter((item) =>
       item.fullname.includes(val)
     );
   };
